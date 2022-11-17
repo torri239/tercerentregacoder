@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: black;
+  height: 80px;
+}
+
+header .contenido {
+  font-family: "Righteous", cursive;
+}
+
+main .ptitulo {
+  font-family: "Righteous", cursive;
+  font-size: 35px;
+  color: black;
+}
+main p {
+  color: white;
+}
+main #artcontainer {
+  background-color: darkred;
+  border-radius: auto;
+  grid-gap: 150px;
+}
+main .producto {
+  width: 150px;
+  height: 200px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: darkred;
+  margin-top: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+a {
+  color: black;
+  height: 80px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: black;
+  height: 80px;
+}
+
+header .contenido {
+  font-family: "Righteous", cursive;
+}
+
+main .ptitulo {
+  font-family: "Righteous", cursive;
+  font-size: 35px;
+  color: black;
+}
+main p {
+  color: white;
+}
+main #artcontainer {
+  background-color: darkred;
+  border-radius: auto;
+  grid-gap: 150px;
+}
+main .producto {
+  width: 150px;
+  height: 200px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: darkred;
+  margin-top: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+a {
+  color: black;
+  height: 80px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body h1 {
+  font-family: "Righteous", cursive;
+  font-size: 45px;
+}
+body span {
+  font-family: "Righteous", cursive;
+  font-size: 20px;
+}
+body .magia {
+  font-family: "Righteous", cursive;
+  font-size: 20px;
+}
+body p {
+  font-family: "Righteous", cursive;
+  font-size: 15px;
+}
+body .mapa {
+  height: 500px;
+  width: 650px;
+}
+body h2 {
+  font-family: "Righteous", cursive;
+  font-size: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body h1 {
+  font-family: "Righteous", cursive;
+  font-size: 35px;
+}
+body h2 {
+  font-family: "Righteous", cursive;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

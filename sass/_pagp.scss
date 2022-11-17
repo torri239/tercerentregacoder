@@ -1,0 +1,106 @@
+$color_1: black;
+$font-family_1: 'Righteous', cursive;
+$background-color_1: darkred;
+
+@import "https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap";
+/* MOBILE FIRST */
+* {
+	margin: 0;
+	padding: 0;
+}
+.contenido {
+	font-family: $font-family_1;
+}
+.ptitulo {
+	font-family: $font-family_1;
+	font-size: 35px;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: center;
+	align-items: center;
+}
+#artcontainer {
+	background-color: $background-color_1;
+	border-radius: auto;
+	grid-gap: 150px;
+}
+.logo-principal {
+	align-items: center;
+	align-items: center;
+	justify-self: center;
+}
+.producto {
+	width: 150px;
+	height: 200px;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+.producto1 {
+	width: 100px;
+	height: 150px;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+}
+.final {
+	background-color: $background-color_1;
+	margin-top: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+ul {
+	display: flex;
+	align-items: center;
+}
+li {
+	list-style: none;
+	margin-left: 20px;
+}
+a {
+	color: $color_1;
+	height: 80px;
+}
+header {
+	display: grid;
+	grid-template-columns: auto;
+}
+.grid-header {
+	justify-self: center;
+}
+footer {
+	display: grid;
+	grid-template-columns: auto;
+}
+@media (min-width: 768px) {
+	.nav {
+		grid-template-columns: auto auto auto;
+		justify-content: space-around;
+	}
+	ul {
+		display: flex;
+		justify-content: space-around;
+	}}
+    footer {
+		display: grid;
+		grid-template-columns: auto auto auto;
+	}
+	.producto {
+		display: grid;
+		grid-template-columns: auto;
+		justify-self: center;
+	}
+	.mapa {
+		height: 500px;
+		width: 500px;
+		justify-content: center;
+		align-items: center;
+	}
+
